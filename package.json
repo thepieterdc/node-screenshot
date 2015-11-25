@@ -1,83 +1,28 @@
 {
-  "_args": [
-    [
-      "node-screenshot",
-      "/home/pieter/NpmProjects"
-    ]
-  ],
-  "_from": "node-screenshot@*",
-  "_id": "node-screenshot@0.1.0",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/node-screenshot",
-  "_nodeVersion": "0.10.40",
-  "_npmUser": {
-    "email": "pieterdeclercq@outlook.com",
-    "name": "thepieterdc"
-  },
-  "_npmVersion": "3.3.10",
-  "_phantomChildren": {},
-  "_requested": {
-    "name": "node-screenshot",
-    "raw": "node-screenshot",
-    "rawSpec": "",
-    "scope": null,
-    "spec": "*",
-    "type": "range"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_shasum": "b58388a2d6db8eb2f6e678908b46e4359864defe",
-  "_shrinkwrap": null,
-  "_spec": "node-screenshot",
-  "_where": "/home/pieter/NpmProjects",
-  "author": {
-    "email": "pieterdeclercq@outlook.com",
-    "name": "Pieter De Clercq",
-    "url": "https://github.com/thepieterdc"
-  },
-  "bugs": {
-    "url": "https://github.com/thepieterdc/node-screenshot/issues"
-  },
-  "dependencies": {},
+  "name": "node-screenshot",
+  "version": "0.1.0",
   "description": "A screenshot library for node.js",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "b58388a2d6db8eb2f6e678908b46e4359864defe",
-    "tarball": "http://registry.npmjs.org/node-screenshot/-/node-screenshot-0.1.0.tgz"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "gitHead": "1c02aa8ebc406f4183138052eaf2ea4df2a5ee49",
-  "homepage": "https://github.com/thepieterdc/node-screenshot#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepieterdc/node-screenshot.git"
+  },
   "keywords": [
     "capture",
     "desktop",
     "image",
     "node",
     "screen",
-    "screenshot",
-    "shot"
+    "shot",
+    "screenshot"
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/thepieterdc/node-screenshot/blob/master/LICENSE"
-    }
-  ],
-  "main": "index.js",
-  "maintainers": [
-    {
-      "name": "thepieterdc",
-      "email": "pieterdeclercq@outlook.com"
-    }
-  ],
-  "name": "node-screenshot",
-  "optionalDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thepieterdc/node-screenshot.git"
+  "author": "Pieter De Clercq <pieterdeclercq@outlook.com> (https://github.com/thepieterdc)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thepieterdc/node-screenshot/issues"
   },
-  "scripts": {},
-  "version": "0.1.0"
+  "homepage": "https://github.com/thepieterdc/node-screenshot#readme"
 }
